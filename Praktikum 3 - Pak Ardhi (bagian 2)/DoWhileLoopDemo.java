@@ -1,5 +1,5 @@
 //M0521023_Gentur Sahadewa
-public class WhileLoopDemo {
+public class DoWhileLoopDemo {
     public static void main(String[] args) {
         int arr[] = {5, 1, 4, 2, 3};
         /* PERULANGAN FOR-LOOP

@@ -17,7 +17,7 @@ public class ExceptionDemo2 {
 
                 //Exception handlng dengan throw
                 if (Double.isInfinite(hasil)) {
-                    throw new Exception();
+                    throw new ArithmeticException();
                 }
 
                 System.out.println(bil1 + " / " + bil2 + " = " + hasil);
@@ -28,7 +28,7 @@ public class ExceptionDemo2 {
                 sc.next();
                 System.out.println("Input salah, masukkan angka");
             }
-            catch (Exception e) {
+            catch (ArithmeticException e) {
                 System.out.println("Tidak dapat membagi dengan 0 (nol)");
             }
         }
